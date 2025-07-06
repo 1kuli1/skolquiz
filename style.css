@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #d0e7ff;
+  color: #333;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+label, select, button {
+  display: block;
+  margin: 10px auto;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#question-container {
+  margin-top: 20px;
+}
+
+.alternativ-btn {
+  display: block;
+  margin: 5px auto;
+  padding: 10px;
+  font-size: 1rem;
+}
