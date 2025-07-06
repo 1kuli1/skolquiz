@@ -1,0 +1,22 @@
+[
+  {
+    "Årskurs": "3",
+    "Ämne": "Biologi",
+    "Fråga": "Vad behöver växter för att kunna leva?",
+    "Alternativ 1": "Sol, vatten och jord",
+    "Alternativ 2": "Mörker och kyla",
+    "Alternativ 3": "Eld och vatten",
+    "Alternativ 4": "Sand och luft",
+    "Rätt svar": "Sol, vatten och jord"
+  },
+  {
+    "Årskurs": "3",
+    "Ämne": "Geografi",
+    "Fråga": "Vad heter Sveriges huvudstad?",
+    "Alternativ 1": "Malmö",
+    "Alternativ 2": "Göteborg",
+    "Alternativ 3": "Stockholm",
+    "Alternativ 4": "Uppsala",
+    "Rätt svar": "Stockholm"
+  }
+]
