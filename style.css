@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #cce0ff;
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+  color: #003366;
+}
+label, select {
+  display: block;
+  margin: 10px 0 5px;
+}
+select {
+  width: 100%;
+  padding: 8px;
+}
