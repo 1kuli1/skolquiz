@@ -1,0 +1,10 @@
+
+[
+  {
+    "årskurs": "3",
+    "ämne": "Biologi",
+    "fråga": "Vad behöver växter för att kunna leva?",
+    "alternativ": ["Sol, vatten och jord", "Mörker och kyla", "Eld och vatten", "Sand och luft"],
+    "rätt_svar": "Sol, vatten och jord"
+  }
+]

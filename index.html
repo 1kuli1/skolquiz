@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SkolQuiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>SkolQuiz</h1>
+  <label for="klass">Välj årskurs:</label>
+  <select id="klass"></select>
+
+  <label for="ämne">Välj ämne:</label>
+  <select id="ämne"></select>
+
+  <label for="frågor">Välj fråga:</label>
+  <select id="frågor"></select>
+
+  <button onclick="visaFråga()">Visa fråga</button>
+
+  <div id="question-container"></div>
+  <div id="feedback"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
