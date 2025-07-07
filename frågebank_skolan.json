@@ -2,589 +2,61 @@
   {
     "årskurs": "3",
     "ämne": "Biologi",
-    "fråga": "Vad heter djuret som har lång hals och fläckar?",
+    "fråga": "Vilket sinne använder vi för att känna dofter?",
     "alternativ": [
-      "Giraff",
-      "Elefant",
-      "Lejon",
-      "Zebra"
+      "Synen",
+      "Smaken",
+      "Lukten",
+      "Hörseln"
     ],
-    "rätt_svar": "Giraff"
-  },
-  {
-    "årskurs": "3",
-    "ämne": "Biologi",
-    "fråga": "Var bor fiskar?",
-    "alternativ": [
-      "I vattnet",
-      "På träden",
-      "I sanden",
-      "I luften"
-    ],
-    "rätt_svar": "I vattnet"
-  },
-  {
-    "årskurs": "3",
-    "ämne": "Biologi",
-    "fråga": "Vad kallas djur som äter bara växter?",
-    "alternativ": [
-      "Växtätare",
-      "Rovdjur",
-      "Allätare",
-      "Insekter"
-    ],
-    "rätt_svar": "Växtätare"
-  },
-  {
-    "årskurs": "3",
-    "ämne": "Biologi",
-    "fråga": "Vad gör bladen på en växt?",
-    "alternativ": [
-      "Tar upp solljus",
-      "Gömmer sig",
-      "Ger frukt",
-      "Gräver sig ner"
-    ],
-    "rätt_svar": "Tar upp solljus"
-  },
-  {
-    "årskurs": "3",
-    "ämne": "Biologi",
-    "fråga": "Vilket djur kan flyga?",
-    "alternativ": [
-      "Fågel",
-      "Häst",
-      "Fisk",
-      "Groda"
-    ],
-    "rätt_svar": "Fågel"
-  },
-  {
-    "årskurs": "3",
-    "ämne": "Biologi",
-    "fråga": "Vad kallas små insekter som surrar?",
-    "alternativ": [
-      "Myggor",
-      "Grodor",
-      "Fåglar",
-      "Maskar"
-    ],
-    "rätt_svar": "Myggor"
-  },
-  {
-    "årskurs": "3",
-    "ämne": "Biologi",
-    "fråga": "Vad behöver människor för att andas?",
-    "alternativ": [
-      "Luft",
-      "Vatten",
-      "Jord",
-      "Eld"
-    ],
-    "rätt_svar": "Luft"
-  },
-  {
-    "årskurs": "3",
-    "ämne": "Biologi",
-    "fråga": "Vilket djur har vingar men kan inte flyga?",
-    "alternativ": [
-      "Pingvin",
-      "Örn",
-      "Fisk",
-      "Katt"
-    ],
-    "rätt_svar": "Pingvin"
-  },
-  {
-    "årskurs": "3",
-    "ämne": "Biologi",
-    "fråga": "Vad är en fjäril i sitt första stadium?",
-    "alternativ": [
-      "Larv",
-      "Ägg",
-      "Puppa",
-      "Yngel"
-    ],
-    "rätt_svar": "Larv"
+    "rätt_svar": "Lukten"
   },
   {
     "årskurs": "4",
     "ämne": "Biologi",
-    "fråga": "Vad kallas den process där växter omvandlar solljus till energi?",
+    "fråga": "Vad behöver kroppen för att få energi?",
     "alternativ": [
-      "Fotosyntes",
-      "Cellandning",
-      "Andning",
-      "Förbränning"
+      "Socker och syre",
+      "Syre och mat",
+      "Mat och vatten",
+      "Ljus och värme"
     ],
-    "rätt_svar": "Fotosyntes"
+    "rätt_svar": "Syre och mat"
   },
   {
-    "årskurs": "4",
+    "årskurs": "5",
     "ämne": "Biologi",
-    "fråga": "Vilket djur är Sveriges största rovdjur?",
+    "fråga": "Vilket organ pumpar blod i kroppen?",
     "alternativ": [
-      "Varg",
-      "Björn",
-      "Lo",
-      "Räv"
-    ],
-    "rätt_svar": "Björn"
-  },
-  {
-    "årskurs": "4",
-    "ämne": "Biologi",
-    "fråga": "Vad heter det största organet i människokroppen?",
-    "alternativ": [
-      "Levern",
-      "Huden",
+      "Hjärnan",
+      "Magen",
       "Hjärtat",
-      "Lungan"
+      "Lungorna"
     ],
-    "rätt_svar": "Huden"
-  },
-  {
-    "årskurs": "4",
-    "ämne": "Biologi",
-    "fråga": "Vad är en näringskedja?",
-    "alternativ": [
-      "En kedja med mat",
-      "Ett nätverk av djur",
-      "Ett rovdjur",
-      "En typ av växt"
-    ],
-    "rätt_svar": "Ett nätverk av djur"
-  },
-  {
-    "årskurs": "4",
-    "ämne": "Biologi",
-    "fråga": "Vilken del av växten tar upp vatten från jorden?",
-    "alternativ": [
-      "Roten",
-      "Bladet",
-      "Stammen",
-      "Blomman"
-    ],
-    "rätt_svar": "Roten"
-  },
-  {
-    "årskurs": "4",
-    "ämne": "Biologi",
-    "fråga": "Vad kallas djur som bara äter växter?",
-    "alternativ": [
-      "Växtätare",
-      "Rovdjur",
-      "Allätare",
-      "Insekter"
-    ],
-    "rätt_svar": "Växtätare"
-  },
-  {
-    "årskurs": "4",
-    "ämne": "Biologi",
-    "fråga": "Vilket djur kan ändra färg för att skydda sig?",
-    "alternativ": [
-      "Kameleont",
-      "Ödla",
-      "Groda",
-      "Orm"
-    ],
-    "rätt_svar": "Kameleont"
-  },
-  {
-    "årskurs": "4",
-    "ämne": "Biologi",
-    "fråga": "Vad heter den gas som växter släpper ut när de andas?",
-    "alternativ": [
-      "Syre",
-      "Koldioxid",
-      "Väte",
-      "Kväve"
-    ],
-    "rätt_svar": "Syre"
-  },
-  {
-    "årskurs": "4",
-    "ämne": "Biologi",
-    "fråga": "Hur andas fiskar?",
-    "alternativ": [
-      "Med gälar",
-      "Med lungor",
-      "Med huden",
-      "Med fenor"
-    ],
-    "rätt_svar": "Med gälar"
-  },
-  {
-    "årskurs": "4",
-    "ämne": "Biologi",
-    "fråga": "Vad är det som gör att fåglar kan flyga?",
-    "alternativ": [
-      "Fjärilar",
-      "Vingar",
-      "Ben",
-      "Fjädrar"
-    ],
-    "rätt_svar": "Fjädrar"
+    "rätt_svar": "Hjärtat"
   },
   {
     "årskurs": "3",
     "ämne": "Geografi",
-    "fråga": "Vad heter Sveriges huvudstad?",
+    "fråga": "Vad heter världsdelen där Sverige ligger?",
     "alternativ": [
-      "Malmö",
-      "Göteborg",
-      "Stockholm",
-      "Uppsala"
-    ],
-    "rätt_svar": "Stockholm"
-  },
-  {
-    "årskurs": "3",
-    "ämne": "Geografi",
-    "fråga": "Vilket hav ligger nära Sverige?",
-    "alternativ": [
-      "Medelhavet",
-      "Östersjön",
-      "Röda havet",
-      "Nordsjön"
-    ],
-    "rätt_svar": "Östersjön"
-  },
-  {
-    "årskurs": "3",
-    "ämne": "Geografi",
-    "fråga": "Vad heter det stora landet söder om Sverige?",
-    "alternativ": [
-      "Norge",
-      "Finland",
-      "Danmark",
-      "Tyskland"
-    ],
-    "rätt_svar": "Danmark"
-  },
-  {
-    "årskurs": "3",
-    "ämne": "Geografi",
-    "fråga": "Vad är en sjö?",
-    "alternativ": [
-      "Ett stort vatten",
-      "Ett berg",
-      "En stad",
-      "En skog"
-    ],
-    "rätt_svar": "Ett stort vatten"
-  },
-  {
-    "årskurs": "3",
-    "ämne": "Geografi",
-    "fråga": "Vad är det som gör att det blir sommar och vinter?",
-    "alternativ": [
-      "Solens läge",
-      "Månen",
-      "Regn",
-      "Vind"
-    ],
-    "rätt_svar": "Solens läge"
-  },
-  {
-    "årskurs": "3",
-    "ämne": "Geografi",
-    "fråga": "Vad kallas de stora vattenmassorna på jorden?",
-    "alternativ": [
-      "Floder",
-      "Hav",
-      "Berg",
-      "Öknar"
-    ],
-    "rätt_svar": "Hav"
-  },
-  {
-    "årskurs": "3",
-    "ämne": "Geografi",
-    "fråga": "Vad heter berget som är högst i Sverige?",
-    "alternativ": [
-      "Kebnekaise",
-      "Åreskutan",
-      "Snöberget",
-      "Kungsberget"
-    ],
-    "rätt_svar": "Kebnekaise"
-  },
-  {
-    "årskurs": "3",
-    "ämne": "Geografi",
-    "fråga": "Vad är en ö?",
-    "alternativ": [
-      "Ett område med vatten runt",
-      "Ett berg",
-      "En stad",
-      "En flod"
-    ],
-    "rätt_svar": "Ett område med vatten runt"
-  },
-  {
-    "årskurs": "3",
-    "ämne": "Geografi",
-    "fråga": "Vad heter landet norr om Sverige?",
-    "alternativ": [
-      "Norge",
-      "Finland",
-      "Island",
-      "Ryssland"
-    ],
-    "rätt_svar": "Norge"
-  },
-  {
-    "årskurs": "3",
-    "ämne": "Geografi",
-    "fråga": "Vad kallas det när vatten faller från molnen?",
-    "alternativ": [
-      "Snö",
-      "Regn",
-      "Hagel",
-      "Allt ovan"
-    ],
-    "rätt_svar": "regn"
-  },
-  {
-    "årskurs": "5",
-    "ämne": "Geografi",
-    "fråga": "Vilket land har flest invånare i världen?",
-    "alternativ": [
-      "Indien",
-      "Kina",
-      "USA",
-      "Ryssland"
-    ],
-    "rätt_svar": "Kina"
-  },
-  {
-    "årskurs": "5",
-    "ämne": "Geografi",
-    "fråga": "Vad heter världens längsta flod?",
-    "alternativ": [
-      "Amazonas",
-      "Nilen",
-      "Mississippi",
-      "Yangtze"
-    ],
-    "rätt_svar": "Nilen"
-  },
-  {
-    "årskurs": "5",
-    "ämne": "Geografi",
-    "fråga": "Vilket hav ligger mellan Europa och Afrika?",
-    "alternativ": [
-      "Medelhavet",
-      "Röda havet",
-      "Svarta havet",
-      "Östersjön"
-    ],
-    "rätt_svar": "Medelhavet"
-  },
-  {
-    "årskurs": "5",
-    "ämne": "Geografi",
-    "fråga": "Vad heter huvudstaden i Frankrike?",
-    "alternativ": [
-      "Paris",
-      "London",
-      "Berlin",
-      "Rom"
-    ],
-    "rätt_svar": "Paris"
-  },
-  {
-    "årskurs": "5",
-    "ämne": "Geografi",
-    "fråga": "Vad heter det största landet i världen?",
-    "alternativ": [
-      "Kanada",
-      "Ryssland",
-      "Kina",
-      "USA"
-    ],
-    "rätt_svar": "Ryssland"
-  },
-  {
-    "årskurs": "5",
-    "ämne": "Geografi",
-    "fråga": "Vad kallas det område där två kontinenter möts?",
-    "alternativ": [
-      "Gränsområde",
-      "Kontinentalt gräns",
-      "Kontinentalsockel",
-      "Kontinentalplatta"
-    ],
-    "rätt_svar": "Gränsområde"
-  },
-  {
-    "årskurs": "5",
-    "ämne": "Geografi",
-    "fråga": "Vilken kontinent ligger Australien på?",
-    "alternativ": [
-      "Oceanien",
       "Asien",
-      "Afrika",
-      "Europa"
-    ],
-    "rätt_svar": "Oceanien"
-  },
-  {
-    "årskurs": "5",
-    "ämne": "Geografi",
-    "fråga": "Vad heter världens högsta berg?",
-    "alternativ": [
-      "Mount Everest",
-      "K2",
-      "Kilimanjaro",
-      "Denali"
-    ],
-    "rätt_svar": "Mount Everest"
-  },
-  {
-    "årskurs": "5",
-    "ämne": "Geografi",
-    "fråga": "Vad kallas områden med mycket sand och lite vatten?",
-    "alternativ": [
-      "Öken",
-      "Sjö",
-      "Flod",
-      "Berg"
-    ],
-    "rätt_svar": "Öken"
-  },
-  {
-    "årskurs": "5",
-    "ämne": "Geografi",
-    "fråga": "Vad heter landet som ligger söder om Sverige?",
-    "alternativ": [
-      "Danmark",
-      "Norge",
-      "Finland",
-      "Tyskland"
-    ],
-    "rätt_svar": "Danmark"
-  },
-  {
-    "årskurs": "4",
-    "ämne": "Geografi",
-    "fråga": "Vad heter Sveriges största sjö?",
-    "alternativ": [
-      "Vänern",
-      "Vättern",
-      "Mälaren",
-      "Hjälmaren"
-    ],
-    "rätt_svar": "Vänern"
-  },
-  {
-    "årskurs": "4",
-    "ämne": "Geografi",
-    "fråga": "Vad heter Sveriges huvudstad?",
-    "alternativ": [
-      "Stockholm",
-      "Göteborg",
-      "Malmö",
-      "Uppsala"
-    ],
-    "rätt_svar": "Stockholm"
-  },
-  {
-    "årskurs": "4",
-    "ämne": "Geografi",
-    "fråga": "Vilken är Europas längsta flod?",
-    "alternativ": [
-      "Donau",
-      "Rhen",
-      "Volga",
-      "Seine"
-    ],
-    "rätt_svar": "Donau"
-  },
-  {
-    "årskurs": "4",
-    "ämne": "Geografi",
-    "fråga": "Vad är en karta?",
-    "alternativ": [
-      "En bild av ett område",
-      "En bok",
-      "En stad",
-      "En byggnad"
-    ],
-    "rätt_svar": "En bild av ett område"
-  },
-  {
-    "årskurs": "4",
-    "ämne": "Geografi",
-    "fråga": "Vad kallas det område där land möter hav?",
-    "alternativ": [
-      "Strand",
-      "Berg",
-      "Sjö",
-      "Skog"
-    ],
-    "rätt_svar": "Strand"
-  },
-  {
-    "årskurs": "4",
-    "ämne": "Geografi",
-    "fråga": "Vilken kontinent ligger Sverige på?",
-    "alternativ": [
       "Europa",
-      "Asien",
       "Afrika",
-      "Sydamerika"
+      "Australien"
     ],
     "rätt_svar": "Europa"
   },
   {
-    "årskurs": "4",
+    "årskurs": "5",
     "ämne": "Geografi",
-    "fråga": "Vad är en öken?",
+    "fråga": "Vad heter floden som rinner genom Egypten?",
     "alternativ": [
-      "Ett område med lite regn",
-      "Ett område med mycket vatten",
-      "En stad",
-      "En flod"
+      "Amazonas",
+      "Nilen",
+      "Mississippi",
+      "Rhen"
     ],
-    "rätt_svar": "Ett område med lite regn"
-  },
-  {
-    "årskurs": "4",
-    "ämne": "Geografi",
-    "fråga": "Vad heter berget som är högst i Sverige?",
-    "alternativ": [
-      "Kebnekaise",
-      "Åreskutan",
-      "Snöberget",
-      "Kungsberget"
-    ],
-    "rätt_svar": "Kebnekaise"
-  },
-  {
-    "årskurs": "4",
-    "ämne": "Geografi",
-    "fråga": "Vad kallas det stora havet som omger Sverige?",
-    "alternativ": [
-      "Östersjön",
-      "Medelhavet",
-      "Atlanten",
-      "Nordsjön"
-    ],
-    "rätt_svar": "Östersjön"
-  },
-  {
-    "årskurs": "4",
-    "ämne": "Geografi",
-    "fråga": "Vad kallas det när solen värmer jorden?",
-    "alternativ": [
-      "Solenergi",
-      "Värme",
-      "Väder",
-      "Klimat"
-    ],
-    "rätt_svar": "Solenergi"
+    "rätt_svar": "Nilen"
   }
 ]
