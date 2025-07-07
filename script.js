@@ -36,22 +36,26 @@ document.addEventListener("DOMContentLoaded", () => {
   ämneSelect.addEventListener("change", () => {
     frågaSelect.innerHTML = "";
     let valda = frågor.filter(q => q.årskurs === klassSelect.value && q.ämne === ämneSelect.value);
-  valda.forEach((q) => {
-  let option = document.createElement("option");
-  option.value = q.fråga; // unikt värde
-  option.textContent = q.fråga;
-  frågaSelect.appendChild(option);
-});
-
+    valda.forEach((q) => {
+      let option = document.createElement("option");
+      option.value = q.fråga;
+      option.textContent = q.fråga;
+      frågaSelect.appendChild(option);
     });
   });
 
-  let fråga = valda.find(q => q.fråga === frågaSelect.value);
- {
+  window.visaFråga = () => {
     questionContainer.innerHTML = "";
     feedback.textContent = "";
-    let valda = frågor.filter(q => q.årskurs === klassSelect.value && q.ämne === ämneSelect.value);
-    let fråga = valda[frågaSelect.value];
+
+    let valdFrågetext = frågaSelect.value;
+    let fråga = frågor.find(
+      q =>
+        q.årskurs === klassSelect.value &&
+        q.ämne === ämneSelect.value &&
+        q.fråga === valdFrågetext
+    );
+
     if (!fråga) return;
 
     let frågaEl = document.createElement("h2");
@@ -64,7 +68,7 @@ document.addEventListener("DOMContentLoaded", () => {
       btn.className = "alternativ-btn";
       btn.onclick = () => {
         feedback.textContent = alt === fråga.rätt_svar ? "Rätt svar!" : "Fel svar, försök igen.";
-        feedback.style.color = alt === fråga.rätt_svar ? "lightgreen" : "red";
+        feedback.style.color = alt === fråga.rätt_svar ? "green" : "red";
       };
       questionContainer.appendChild(btn);
     });
