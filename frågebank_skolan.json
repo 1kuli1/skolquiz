@@ -2,18 +2,6 @@
   {
     "årskurs": "3",
     "ämne": "Biologi",
-    "fråga": "Vad behöver växter för att kunna leva?",
-    "alternativ": [
-      "Sol, vatten och jord",
-      "Mörker och kyla",
-      "Eld och vatten",
-      "Sand och luft"
-    ],
-    "rätt_svar": "Sol, vatten och jord"
-  },
-  {
-    "årskurs": "3",
-    "ämne": "Biologi",
     "fråga": "Vad heter djuret som har lång hals och fläckar?",
     "alternativ": [
       "Giraff",
@@ -106,6 +94,18 @@
       "Katt"
     ],
     "rätt_svar": "Pingvin"
+  },
+  {
+    "årskurs": "3",
+    "ämne": "Biologi",
+    "fråga": "Vad är en fjäril i sitt första stadium?",
+    "alternativ": [
+      "Larv",
+      "Ägg",
+      "Pu",
+      "nan"
+    ],
+    "rätt_svar": "nan"
   },
   {
     "årskurs": "4",
@@ -345,7 +345,7 @@
       "Hagel",
       "Allt ovan"
     ],
-    "rätt_svar": "Regn"
+    "rätt_svar": "nan"
   },
   {
     "årskurs": "5",
