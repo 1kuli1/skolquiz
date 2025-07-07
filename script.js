@@ -8,9 +8,20 @@ document.addEventListener("DOMContentLoaded", () => {
   let frågor = [];
 
   fetch("frågebank_skolan.json")
-    .then((response) => response.json())
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error("Kunde inte ladda frågefilen.");
+      }
+      return response.json();
+    })
     .then((data) => {
-      frågor = data;
+      frågor = data.map(f => ({
+        ...f,
+        årskurs: f.årskurs.toString().trim(), // Säkerställ sträng
+        ämne: f.ämne.trim()
+      }));
+      console.log("Inlästa frågor:", frågor);
+
       let klasser = [...new Set(frågor.map(q => q.årskurs))].sort();
       klasser.forEach(k => {
         let option = document.createElement("option");
@@ -18,13 +29,21 @@ document.addEventListener("DOMContentLoaded", () => {
         option.textContent = "Årskurs " + k;
         klassSelect.appendChild(option);
       });
+    })
+    .catch(err => {
+      console.error("Fel vid inläsning:", err);
+      feedback.textContent = "Det gick inte att läsa in frågorna. Kontrollera filen.";
+      feedback.style.color = "red";
     });
 
   klassSelect.addEventListener("change", () => {
-    ämneSelect.innerHTML = "";
+    ämneSelect.innerHTML = "<option disabled selected>Välj ämne</option>";
     frågaSelect.innerHTML = "";
+    feedback.textContent = "";
+    questionContainer.innerHTML = "";
+
     let valda = frågor.filter(q => q.årskurs === klassSelect.value);
-    let ämnen = [...new Set(valda.map(q => q.ämne))];
+    let ämnen = [...new Set(valda.map(q => q.ämne))].sort();
     ämnen.forEach(a => {
       let option = document.createElement("option");
       option.value = a;
@@ -34,11 +53,14 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   ämneSelect.addEventListener("change", () => {
-    frågaSelect.innerHTML = "";
+    frågaSelect.innerHTML = "<option disabled selected>Välj fråga</option>";
+    feedback.textContent = "";
+    questionContainer.innerHTML = "";
+
     let valda = frågor.filter(q => q.årskurs === klassSelect.value && q.ämne === ämneSelect.value);
-    valda.forEach((q) => {
+    valda.forEach((q, index) => {
       let option = document.createElement("option");
-      option.value = q.fråga;
+      option.value = index;
       option.textContent = q.fråga;
       frågaSelect.appendChild(option);
     });
@@ -48,15 +70,14 @@ document.addEventListener("DOMContentLoaded", () => {
     questionContainer.innerHTML = "";
     feedback.textContent = "";
 
-    let valdFrågetext = frågaSelect.value;
-    let fråga = frågor.find(
-      q =>
-        q.årskurs === klassSelect.value &&
-        q.ämne === ämneSelect.value &&
-        q.fråga === valdFrågetext
-    );
+    let valda = frågor.filter(q => q.årskurs === klassSelect.value && q.ämne === ämneSelect.value);
+    let fråga = valda[frågaSelect.value];
 
-    if (!fråga) return;
+    if (!fråga) {
+      feedback.textContent = "Kunde inte hitta vald fråga.";
+      feedback.style.color = "red";
+      return;
+    }
 
     let frågaEl = document.createElement("h2");
     frågaEl.textContent = fråga.fråga;
@@ -67,8 +88,13 @@ document.addEventListener("DOMContentLoaded", () => {
       btn.textContent = alt;
       btn.className = "alternativ-btn";
       btn.onclick = () => {
-        feedback.textContent = alt === fråga.rätt_svar ? "Rätt svar!" : "Fel svar, försök igen.";
-        feedback.style.color = alt === fråga.rätt_svar ? "green" : "red";
+        if (alt === fråga.rätt_svar) {
+          feedback.textContent = "Rätt svar!";
+          feedback.style.color = "green";
+        } else {
+          feedback.textContent = "Fel svar, försök igen.";
+          feedback.style.color = "red";
+        }
       };
       questionContainer.appendChild(btn);
     });
