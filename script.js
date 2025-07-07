@@ -36,15 +36,18 @@ document.addEventListener("DOMContentLoaded", () => {
   ämneSelect.addEventListener("change", () => {
     frågaSelect.innerHTML = "";
     let valda = frågor.filter(q => q.årskurs === klassSelect.value && q.ämne === ämneSelect.value);
-    valda.forEach((q, index) => {
-      let option = document.createElement("option");
-      option.value = index;
-      option.textContent = q.fråga;
-      frågaSelect.appendChild(option);
+  valda.forEach((q) => {
+  let option = document.createElement("option");
+  option.value = q.fråga; // unikt värde
+  option.textContent = q.fråga;
+  frågaSelect.appendChild(option);
+});
+
     });
   });
 
-  window.visaFråga = () => {
+  let fråga = valda.find(q => q.fråga === frågaSelect.value);
+ {
     questionContainer.innerHTML = "";
     feedback.textContent = "";
     let valda = frågor.filter(q => q.årskurs === klassSelect.value && q.ämne === ämneSelect.value);
