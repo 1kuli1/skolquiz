@@ -103,5 +103,194 @@
     "fråga": "Vad hette Sveriges första kvinnliga statsminister?",
     "alternativ": ["Kristina av Sverige", "Margot Wallström", "Magdalena Andersson", "Anna Lindh"],
     "rätt_svar": "Magdalena Andersson"
+  },
+  {
+    "årskurs": 3,
+    "ämne": "Biologi",
+    "fråga": "Vad heter djuret som har lång hals och fläckar?",
+    "alternativ": ["Giraff", "Elefant", "Lejon", "Zebra"],
+    "rätt_svar": "Giraff"
+  },
+  {
+    "årskurs": 3,
+    "ämne": "Biologi",
+    "fråga": "Var bor fiskar?",
+    "alternativ": ["I vattnet", "På träden", "I sanden", "I luften"],
+    "rätt_svar": "I vattnet"
+  },
+  {
+    "årskurs": 3,
+    "ämne": "Biologi",
+    "fråga": "Vad kallas djur som bara äter växter?",
+    "alternativ": ["Växtätare", "Rovdjur", "Allätare", "Insekter"],
+    "rätt_svar": "Växtätare"
+  },
+  {
+    "årskurs": 3,
+    "ämne": "Biologi",
+    "fråga": "Vad gör bladen på en växt?",
+    "alternativ": ["Tar upp solljus", "Gömmer sig", "Ger frukt", "Gräver sig ner"],
+    "rätt_svar": "Tar upp solljus"
+  },
+  {
+    "årskurs": 3,
+    "ämne": "Biologi",
+    "fråga": "Vilket djur kan flyga?",
+    "alternativ": ["Fågel", "Häst", "Fisk", "Groda"],
+    "rätt_svar": "Fågel"
+  },
+  {
+    "årskurs": 3,
+    "ämne": "Biologi",
+    "fråga": "Vad kallas små insekter som surrar?",
+    "alternativ": ["Myggor", "Grodor", "Fåglar", "Maskar"],
+    "rätt_svar": "Myggor"
+  },
+  {
+    "årskurs": 3,
+    "ämne": "Biologi",
+    "fråga": "Vad behöver människor för att andas?",
+    "alternativ": ["Luft", "Vatten", "Jord", "Eld"],
+    "rätt_svar": "Luft"
+  },
+  {
+    "årskurs": 3,
+    "ämne": "Biologi",
+    "fråga": "Vilket djur har vingar men kan inte flyga?",
+    "alternativ": ["Pingvin", "Örn", "Fisk", "Katt"],
+    "rätt_svar": "Pingvin"
+  },
+  {
+    "årskurs": 3,
+    "ämne": "Biologi",
+    "fråga": "Vilken del av växten är under jorden?",
+    "alternativ": ["Roten", "Blomman", "Stammen", "Bladet"],
+    "rätt_svar": "Roten"
+  },
+  {
+    "årskurs": 4,
+    "ämne": "Biologi",
+    "fråga": "Vad kallas den process där växter omvandlar solljus till energi?",
+    "alternativ": ["Fotosyntes", "Cellandning", "Andning", "Förbränning"],
+    "rätt_svar": "Fotosyntes"
+  },
+  {
+    "årskurs": 4,
+    "ämne": "Biologi",
+    "fråga": "Vilket djur är Sveriges största rovdjur?",
+    "alternativ": ["Varg", "Björn", "Lo", "Räv"],
+    "rätt_svar": "Björn"
+  },
+  {
+    "årskurs": 4,
+    "ämne": "Biologi",
+    "fråga": "Vad heter det största organet i människokroppen?",
+    "alternativ": ["Levern", "Huden", "Hjärtat", "Lungan"],
+    "rätt_svar": "Huden"
+  },
+  {
+    "årskurs": 4,
+    "ämne": "Biologi",
+    "fråga": "Vad är en näringskedja?",
+    "alternativ": ["En kedja med mat", "Ett nätverk av djur", "Ett rovdjur", "En typ av växt"],
+    "rätt_svar": "Ett nätverk av djur"
+  },
+  {
+    "årskurs": 4,
+    "ämne": "Biologi",
+    "fråga": "Vilken del av växten tar upp vatten från jorden?",
+    "alternativ": ["Roten", "Bladet", "Stammen", "Blomman"],
+    "rätt_svar": "Roten"
+  },
+  {
+    "årskurs": 4,
+    "ämne": "Biologi",
+    "fråga": "Vad kallas djur som bara äter växter?",
+    "alternativ": ["Växtätare", "Rovdjur", "Allätare", "Insekter"],
+    "rätt_svar": "Växtätare"
+  },
+  {
+    "årskurs": 4,
+    "ämne": "Biologi",
+    "fråga": "Vilket djur kan ändra färg för att skydda sig?",
+    "alternativ": ["Kameleont", "Ödla", "Groda", "Orm"],
+    "rätt_svar": "Kameleont"
+  },
+  {
+    "årskurs": 4,
+    "ämne": "Biologi",
+    "fråga": "Vad heter den gas som växter släpper ut när de andas?",
+    "alternativ": ["Syre", "Koldioxid", "Väte", "Kväve"],
+    "rätt_svar": "Syre"
+  },
+  {
+    "årskurs": 4,
+    "ämne": "Biologi",
+    "fråga": "Hur andas fiskar?",
+    "alternativ": ["Med gälar", "Med lungor", "Med huden", "Med fenor"],
+    "rätt_svar": "Med gälar"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Biologi",
+    "fråga": "Vad kallas den process där djur andas in syre och ut koldioxid?",
+    "alternativ": ["Fotosyntes", "Cellandning", "Förbränning", "Jäsning"],
+    "rätt_svar": "Cellandning"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Biologi",
+    "fråga": "Vilken gas behöver växter från luften för fotosyntesen?",
+    "alternativ": ["Syre", "Kväve", "Koldioxid", "Väte"],
+    "rätt_svar": "Koldioxid"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Biologi",
+    "fråga": "Vad är ett ekosystem?",
+    "alternativ": ["En typ av berg", "En samling djur i ett zoo", "Ett område där levande varelser och deras miljö samverkar", "En stor stad"],
+    "rätt_svar": "Ett område där levande varelser och deras miljö samverkar"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Biologi",
+    "fråga": "Vilket är det största djuret på jorden?",
+    "alternativ": ["Elefant", "Blåval", "Giraff", "Brunbjörn"],
+    "rätt_svar": "Blåval"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Biologi",
+    "fråga": "Vad kallas djur som äter både växter och andra djur?",
+    "alternativ": ["Växtätare", "Rovdjur", "Allätare", "Insekter"],
+    "rätt_svar": "Allätare"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Biologi",
+    "fråga": "Vilken kroppsdel används för att höra?",
+    "alternativ": ["Ögonen", "Näsborrarna", "Öronen", "Tungan"],
+    "rätt_svar": "Öronen"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Biologi",
+    "fråga": "Vad är en cell?",
+    "alternativ": ["En typ av fängelse", "Den minsta byggstenen i levande organismer", "En elektrisk enhet", "En telefon"],
+    "rätt_svar": "Den minsta byggstenen i levande organismer"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Biologi",
+    "fråga": "Vilken typ av djur är en fjäril?",
+    "alternativ": ["Fågel", "Fisk", "Insekt", "Däggdjur"],
+    "rätt_svar": "Insekt"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Biologi",
+    "fråga": "Vad kallas vetenskapen om levande varelser?",
+    "alternativ": ["Fysik", "Kemi", "Biologi", "Geologi"],
+    "rätt_svar": "Biologi"
   }
 ]
