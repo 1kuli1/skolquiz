@@ -7,27 +7,24 @@ document.addEventListener("DOMContentLoaded", () => {
 
   let frågor = [];
 
-  fetch("https://raw.githubusercontent.com/1kuli1/skolquiz/refs/heads/main/fr%C3%A5gebank_skolan.json")
-    .then(r => r.json())
-   .then(r => r.json())
-  .then(data => {
-    console.log('Frågor inlästa:', data);
-    visaFrågor(data);
-  })
-  .catch(err => console.error('Kunde inte läsa in JSON:', err));
+  // Läs in frågedata från GitHub (OBS: RAW-länk!)
+  fetch("https://raw.githubusercontent.com/1kuli1/skolquiz/main/frågebank_skolan.json")
+    .then(response => {
       if (!response.ok) {
         throw new Error("Kunde inte ladda frågefilen.");
       }
       return response.json();
     })
     .then((data) => {
+      // Konvertera till sträng för årskurs och trimma ämne
       frågor = data.map(f => ({
         ...f,
-        årskurs: f.årskurs.toString().trim(), // Säkerställ sträng
+        årskurs: f.årskurs.toString().trim(),
         ämne: f.ämne.trim()
       }));
       console.log("Inlästa frågor:", frågor);
 
+      // Fyll i klasser
       let klasser = [...new Set(frågor.map(q => q.årskurs))].sort();
       klasser.forEach(k => {
         let option = document.createElement("option");
@@ -42,6 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
       feedback.style.color = "red";
     });
 
+  // När årskurs ändras
   klassSelect.addEventListener("change", () => {
     ämneSelect.innerHTML = "<option disabled selected>Välj ämne</option>";
     frågaSelect.innerHTML = "";
@@ -58,6 +56,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
+  // När ämne ändras
   ämneSelect.addEventListener("change", () => {
     frågaSelect.innerHTML = "<option disabled selected>Välj fråga</option>";
     feedback.textContent = "";
@@ -72,6 +71,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
+  // Visa fråga och alternativ
   window.visaFråga = () => {
     questionContainer.innerHTML = "";
     feedback.textContent = "";
