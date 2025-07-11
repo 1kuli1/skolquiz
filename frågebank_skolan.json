@@ -1,27 +1,107 @@
 [
   {
     "årskurs": 3,
-    "ämne": "Historia",
-    "fråga": "Vem var Gustav Vasa?",
-    "alternativ": [
-      "En fotbollsspelare",
-      "En svensk kung",
-      "En uppfinnare",
-      "En målare"
-    ],
-    "rätt_svar": "En svensk kung"
+    "ämne": "Biologi",
+    "fråga": "Vilket sinne använder vi för att känna dofter?",
+    "alternativ": ["Synen", "Smaken", "Lukten", "Hörseln"],
+    "rätt_svar": "Lukten"
   },
   {
     "årskurs": 4,
     "ämne": "Biologi",
     "fråga": "Vad behöver kroppen för att få energi?",
-    "alternativ": [
-      "Socker och syre",
-      "Syre och mat",
-      "Mat och vatten",
-      "Ljus och värme"
-    ],
+    "alternativ": ["Socker och syre", "Syre och mat", "Mat och vatten", "Ljus och värme"],
     "rätt_svar": "Syre och mat"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Biologi",
+    "fråga": "Vilket organ pumpar blod i kroppen?",
+    "alternativ": ["Hjärnan", "Magen", "Hjärtat", "Lungorna"],
+    "rätt_svar": "Hjärtat"
+  },
+  {
+    "årskurs": 3,
+    "ämne": "Geografi",
+    "fråga": "Vad heter världsdelen där Sverige ligger?",
+    "alternativ": ["Asien", "Europa", "Afrika", "Australien"],
+    "rätt_svar": "Europa"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Geografi",
+    "fråga": "Vad heter floden som rinner genom Egypten?",
+    "alternativ": ["Amazonas", "Nilen", "Mississippi", "Rhen"],
+    "rätt_svar": "Nilen"
+  },
+  {
+    "årskurs": 3,
+    "ämne": "Historia",
+    "fråga": "Vem var Gustav Vasa?",
+    "alternativ": ["En fotbollsspelare", "En svensk kung", "En uppfinnare", "En målare"],
+    "rätt_svar": "En svensk kung"
+  },
+  {
+    "årskurs": 3,
+    "ämne": "Historia",
+    "fråga": "Vad kallades vikingarnas skepp?",
+    "alternativ": ["U-båtar", "Flygplan", "Drakskepp", "Tåg"],
+    "rätt_svar": "Drakskepp"
+  },
+  {
+    "årskurs": 3,
+    "ämne": "Historia",
+    "fråga": "Vilken stad grundades av Birger Jarl?",
+    "alternativ": ["Göteborg", "Malmö", "Stockholm", "Uppsala"],
+    "rätt_svar": "Stockholm"
+  },
+  {
+    "årskurs": 3,
+    "ämne": "Historia",
+    "fråga": "Vad använde man för att skriva på under forntiden?",
+    "alternativ": ["Dator", "Sten och huggverktyg", "Mobil", "Papper och penna"],
+    "rätt_svar": "Sten och huggverktyg"
+  },
+  {
+    "årskurs": 3,
+    "ämne": "Historia",
+    "fråga": "Vad är ett runalfabet?",
+    "alternativ": ["Ett spel", "Ett gammalt skriftspråk", "En maträtt", "Ett danssteg"],
+    "rätt_svar": "Ett gammalt skriftspråk"
+  },
+  {
+    "årskurs": 3,
+    "ämne": "Historia",
+    "fråga": "Vilket år firas ofta som Sveriges nationaldag?",
+    "alternativ": ["6 juni", "24 december", "1 januari", "30 april"],
+    "rätt_svar": "6 juni"
+  },
+  {
+    "årskurs": 3,
+    "ämne": "Historia",
+    "fråga": "Vad betyder ordet 'forntid'?",
+    "alternativ": ["Framtiden", "Nutid", "Långt tillbaka i tiden", "I går"],
+    "rätt_svar": "Långt tillbaka i tiden"
+  },
+  {
+    "årskurs": 3,
+    "ämne": "Historia",
+    "fråga": "Vem var drottning Kristina?",
+    "alternativ": ["En forskare", "En svensk drottning", "En målare", "En skådespelare"],
+    "rätt_svar": "En svensk drottning"
+  },
+  {
+    "årskurs": 3,
+    "ämne": "Historia",
+    "fråga": "Vilka var vikingar?",
+    "alternativ": ["Folk som reste och plundrade", "Folk som bodde i Afrika", "Moderna soldater", "Kungliga rådgivare"],
+    "rätt_svar": "Folk som reste och plundrade"
+  },
+  {
+    "årskurs": 3,
+    "ämne": "Historia",
+    "fråga": "Vad hette Sveriges första kvinnliga statsminister?",
+    "alternativ": ["Kristina av Sverige", "Margot Wallström", "Magdalena Andersson", "Anna Lindh"],
+    "rätt_svar": "Magdalena Andersson"
   }
 ]
-
