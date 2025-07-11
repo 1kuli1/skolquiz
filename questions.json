@@ -432,10 +432,5 @@
     "fråga": "Vad kallas den period då Europa var mörkt och oroligt efter Romarrikets fall?",
     "alternativ": ["Renässansen", "Upplysningstiden", "Medeltiden", "Vikingatiden"],
     "rätt_svar": "Medeltiden"
-  },
-  {
-    "årskurs": 4,
-    "ämne": "Historia",
-    "fråga": "Vad var syftet med riddarnas rustning?",
-   "alternativ": ["Att se snygg ut", "Att skydda sig i strid", "Att hålla värmen", "
-   "rätt_svar": "Att skydda sig i strid",
+  }
+ 
