@@ -393,6 +393,237 @@
     "fråga": "Vad var 'industrialiseringen'?",
     "alternativ": ["När man började måla konst", "När man började tillverka varor i fabriker", "När man upptäckte nya länder", "När man började odla mer mat"],
     "rätt_svar": "När man började tillverka varor i fabriker"
+  },
+  {
+    "årskurs": 3,
+    "ämne": "Geografi",
+    "fråga": "Vad heter Sveriges huvudstad?",
+    "alternativ": ["Malmö", "Göteborg", "Stockholm", "Uppsala"],
+    "rätt_svar": "Stockholm"
+  },
+  {
+    "årskurs": 3,
+    "ämne": "Geografi",
+    "fråga": "Vilket hav ligger nära Sverige?",
+    "alternativ": ["Medelhavet", "Östersjön", "Röda havet", "Nordsjön"],
+    "rätt_svar": "Östersjön"
+  },
+  {
+    "årskurs": 3,
+    "ämne": "Geografi",
+    "fråga": "Vad heter det stora landet söder om Sverige?",
+    "alternativ": ["Norge", "Finland", "Danmark", "Tyskland"],
+    "rätt_svar": "Danmark"
+  },
+  {
+    "årskurs": 3,
+    "ämne": "Geografi",
+    "fråga": "Vad är en sjö?",
+    "alternativ": ["Ett stort vatten", "Ett berg", "En stad", "En skog"],
+    "rätt_svar": "Ett stort vatten"
+  },
+  {
+    "årskurs": 3,
+    "ämne": "Geografi",
+    "fråga": "Vad är det som gör att det blir sommar och vinter?",
+    "alternativ": ["Solens läge", "Månen", "Regn", "Vind"],
+    "rätt_svar": "Solens läge"
+  },
+  {
+    "årskurs": 3,
+    "ämne": "Geografi",
+    "fråga": "Vad kallas de stora vattenmassorna på jorden?",
+    "alternativ": ["Floder", "Hav", "Berg", "Öknar"],
+    "rätt_svar": "Hav"
+  },
+  {
+    "årskurs": 3,
+    "ämne": "Geografi",
+    "fråga": "Vad heter berget som är högst i Sverige?",
+    "alternativ": ["Kebnekaise", "Åreskutan", "Snöberget", "Kungsberget"],
+    "rätt_svar": "Kebnekaise"
+  },
+  {
+    "årskurs": 3,
+    "ämne": "Geografi",
+    "fråga": "Vad är en ö?",
+    "alternativ": ["Ett område med vatten runt", "Ett berg", "En stad", "En flod"],
+    "rätt_svar": "Ett område med vatten runt"
+  },
+  {
+    "årskurs": 3,
+    "ämne": "Geografi",
+    "fråga": "Vad heter landet norr om Sverige?",
+    "alternativ": ["Norge", "Finland", "Island", "Ryssland"],
+    "rätt_svar": "Norge"
+  },
+  {
+    "årskurs": 4,
+    "ämne": "Geografi",
+    "fråga": "Vad heter Sveriges största sjö?",
+    "alternativ": ["Vänern", "Vättern", "Mälaren", "Hjälmaren"],
+    "rätt_svar": "Vänern"
+  },
+  {
+    "årskurs": 4,
+    "ämne": "Geografi",
+    "fråga": "Vad heter Sveriges huvudstad?",
+    "alternativ": ["Stockholm", "Göteborg", "Malmö", "Uppsala"],
+    "rätt_svar": "Stockholm"
+  },
+  {
+    "årskurs": 4,
+    "ämne": "Geografi",
+    "fråga": "Vilken är Europas längsta flod?",
+    "alternativ": ["Donau", "Rhen", "Volga", "Seine"],
+    "rätt_svar": "Volga"
+  },
+  {
+    "årskurs": 4,
+    "ämne": "Geografi",
+    "fråga": "Vad är en karta?",
+    "alternativ": ["En bild av ett område", "En bok", "En stad", "En byggnad"],
+    "rätt_svar": "En bild av ett område"
+  },
+  {
+    "årskurs": 4,
+    "ämne": "Geografi",
+    "fråga": "Vad kallas det område där land möter hav?",
+    "alternativ": ["Strand", "Berg", "Sjö", "Skog"],
+    "rätt_svar": "Strand"
+  },
+  {
+    "årskurs": 4,
+    "ämne": "Geografi",
+    "fråga": "Vilken kontinent ligger Sverige på?",
+    "alternativ": ["Europa", "Asien", "Afrika", "Sydamerika"],
+    "rätt_svar": "Europa"
+  },
+  {
+    "årskurs": 4,
+    "ämne": "Geografi",
+    "fråga": "Vad är en öken?",
+    "alternativ": ["Ett område med lite regn", "Ett område med mycket vatten", "En stad", "En flod"],
+    "rätt_svar": "Ett område med lite regn"
+  },
+  {
+    "årskurs": 4,
+    "ämne": "Geografi",
+    "fråga": "Vad heter berget som är högst i Sverige?",
+    "alternativ": ["Kebnekaise", "Åreskutan", "Snöberget", "Kungsberget"],
+    "rätt_svar": "Kebnekaise"
+  },
+  {
+    "årskurs": 4,
+    "ämne": "Geografi",
+    "fråga": "Vad kallas det stora havet som omger Sverige?",
+    "alternativ": ["Östersjön", "Medelhavet", "Atlanten", "Nordsjön"],
+    "rätt_svar": "Östersjön"
+  },
+  {
+    "årskurs": 4,
+    "ämne": "Geografi",
+    "fråga": "Vad kallas det när solen värmer jorden?",
+    "alternativ": ["Solenergi", "Värme", "Väder", "Klimat"],
+    "rätt_svar": "Solenergi"
+  },
+  {
+    "årskurs": 3,
+    "ämne": "Geografi",
+    "fråga": "Vad heter Sveriges huvudstad?",
+    "alternativ": ["Malmö", "Göteborg", "Stockholm", "Uppsala"],
+    "rätt_svar": "Stockholm"
+  },
+  {
+    "årskurs": 3,
+    "ämne": "Geografi",
+    "fråga": "Vilket hav ligger nära Sverige?",
+    "alternativ": ["Medelhavet", "Östersjön", "Röda havet", "Nordsjön"],
+    "rätt_svar": "Östersjön"
+  },
+  {
+    "årskurs": 3,
+    "ämne": "Geografi",
+    "fråga": "Vad heter det stora landet söder om Sverige?",
+    "alternativ": ["Norge", "Finland", "Danmark", "Tyskland"],
+    "rätt_svar": "Danmark"
+  },
+  {
+    "årskurs": 3,
+    "ämne": "Geografi",
+    "fråga": "Vad är en sjö?",
+    "alternativ": ["Ett stort vatten", "Ett berg", "En stad", "En skog"],
+    "rätt_svar": "Ett stort vatten"
+  },
+  {
+    "årskurs": 3,
+    "ämne": "Geografi",
+    "fråga": "Vad är det som gör att det blir sommar och vinter?",
+    "alternativ": ["Solens läge", "Månen", "Regn", "Vind"],
+    "rätt_svar": "Solens läge"
+  },
+  {
+    "årskurs": 3,
+    "ämne": "Geografi",
+    "fråga": "Vad kallas de stora vattenmassorna på jorden?",
+    "alternativ": ["Floder", "Hav", "Berg", "Öknar"],
+    "rätt_svar": "Hav"
+  },
+  {
+    "årskurs": 3,
+    "ämne": "Geografi",
+    "fråga": "Vad heter berget som är högst i Sverige?",
+    "alternativ": ["Kebnekaise", "Åreskutan", "Snöberget", "Kungsberget"],
+    "rätt_svar": "Kebnekaise"
+  },
+  {
+    "årskurs": 3,
+    "ämne": "Geografi",
+    "fråga": "Vad är en ö?",
+    "alternativ": ["Ett område med vatten runt", "Ett berg", "En stad", "En flod"],
+    "rätt_svar": "Ett område med vatten runt"
+  },
+  {
+    "årskurs": 3,
+    "ämne": "Geografi",
+    "fråga": "Vad heter landet norr om Sverige?",
+    "alternativ": ["Norge", "Finland", "Island", "Ryssland"],
+    "rätt_svar": "Norge"
+  },
+  {
+    "årskurs": 3,
+    "ämne": "Geografi",
+    "fråga": "Vad heter den största världsdelen?",
+    "alternativ": ["Europa", "Asien", "Afrika", "Nordamerika"],
+    "rätt_svar": "Asien"
+  },
+  {
+    "årskurs": 3,
+    "ämne": "Geografi",
+    "fråga": "Vad kallas det område där många träd växer tätt ihop?",
+    "alternativ": ["Öken", "Sjö", "Skog", "Berg"],
+    "rätt_svar": "Skog"
+  },
+  {
+    "årskurs": 3,
+    "ämne": "Geografi",
+    "fråga": "Vad använder man för att veta vilken väg man ska åka på en karta?",
+    "alternativ": ["En klocka", "En kompass", "En mobiltelefon", "En bok"],
+    "rätt_svar": "En kompass"
+  },
+  {
+    "årskurs": 3,
+    "ämne": "Geografi",
+    "fråga": "Vilken färg är havet oftast?",
+    "alternativ": ["Grön", "Brun", "Blå", "Gul"],
+    "rätt_svar": "Blå"
+  },
+  {
+    "årskurs": 3,
+    "ämne": "Geografi",
+    "fråga": "Vad kallas en plats med många hus och gator?",
+    "alternativ": ["By", "Stad", "Åker", "Fjäll"],
+    "rätt_svar": "Stad"
   }
 
 ]
