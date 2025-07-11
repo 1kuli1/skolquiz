@@ -624,6 +624,210 @@
     "fråga": "Vad kallas en plats med många hus och gator?",
     "alternativ": ["By", "Stad", "Åker", "Fjäll"],
     "rätt_svar": "Stad"
-  }
+  },
+  {
+    "årskurs": 4,
+    "ämne": "Geografi",
+    "fråga": "Vad heter Sveriges största sjö?",
+    "alternativ": ["Vänern", "Vättern", "Mälaren", "Hjälmaren"],
+    "rätt_svar": "Vänern"
+  },
+  {
+    "årskurs": 4,
+    "ämne": "Geografi",
+    "fråga": "Vad heter Sveriges huvudstad?",
+    "alternativ": ["Stockholm", "Göteborg", "Malmö", "Uppsala"],
+    "rätt_svar": "Stockholm"
+  },
+  {
+    "årskurs": 4,
+    "ämne": "Geografi",
+    "fråga": "Vilken är Europas längsta flod?",
+    "alternativ": ["Donau", "Rhen", "Volga", "Seine"],
+    "rätt_svar": "Volga"
+  },
+  {
+    "årskurs": 4,
+    "ämne": "Geografi",
+    "fråga": "Vad är en karta?",
+    "alternativ": ["En bild av ett område", "En bok", "En stad", "En byggnad"],
+    "rätt_svar": "En bild av ett område"
+  },
+  {
+    "årskurs": 4,
+    "ämne": "Geografi",
+    "fråga": "Vad kallas det område där land möter hav?",
+    "alternativ": ["Strand", "Berg", "Sjö", "Skog"],
+    "rätt_svar": "Strand"
+  },
+  {
+    "årskurs": 4,
+    "ämne": "Geografi",
+    "fråga": "Vilken kontinent ligger Sverige på?",
+    "alternativ": ["Europa", "Asien", "Afrika", "Sydamerika"],
+    "rätt_svar": "Europa"
+  },
+  {
+    "årskurs": 4,
+    "ämne": "Geografi",
+    "fråga": "Vad är en öken?",
+    "alternativ": ["Ett område med lite regn", "Ett område med mycket vatten", "En stad", "En flod"],
+    "rätt_svar": "Ett område med lite regn"
+  },
+  {
+    "årskurs": 4,
+    "ämne": "Geografi",
+    "fråga": "Vad heter berget som är högst i Sverige?",
+    "alternativ": ["Kebnekaise", "Åreskutan", "Snöberget", "Kungsberget"],
+    "rätt_svar": "Kebnekaise"
+  },
+  {
+    "årskurs": 4,
+    "ämne": "Geografi",
+    "fråga": "Vad kallas det stora havet som omger Sverige?",
+    "alternativ": ["Östersjön", "Medelhavet", "Atlanten", "Nordsjön"],
+    "rätt_svar": "Östersjön"
+  },
+  {
+    "årskurs": 4,
+    "ämne": "Geografi",
+    "fråga": "Vad kallas det när solen värmer jorden?",
+    "alternativ": ["Solenergi", "Värme", "Väder", "Klimat"],
+    "rätt_svar": "Solenergi"
+  },
+  {
+    "årskurs": 4,
+    "ämne": "Historia",
+    "fråga": "Vad är en fossiler?",
+    "alternativ": ["Gamla stenar", "Förstenade rester av liv", "En typ av växt", "En gammal byggnad"],
+    "rätt_svar": "Förstenade rester av liv"
+  },
+  {
+    "årskurs": 4,
+    "ämne": "Historia",
+    "fråga": "Vad var en 'neandertalare'?",
+    "alternativ": ["En gammal dinosaurie", "En typ av tidig människa", "Ett gammalt träd", "Ett forntida verktyg"],
+    "rätt_svar": "En typ av tidig människa"
+  },
+  {
+    "årskurs": 4,
+    "ämne": "Historia",
+    "fråga": "Vad kallas tidsperioden före skriftspråket?",
+    "alternativ": ["Medeltiden", "Forntiden", "Nutiden", "Framtiden"],
+    "rätt_svar": "Forntiden"
+  },
+  {
+    "årskurs": 4,
+    "ämne": "Historia",
+    "fråga": "Vad var pyramidens syfte i det gamla Egypten?",
+    "alternativ": ["Ett bostadshus", "En butik", "En gravplats för faraoner", "En skola"],
+    "rätt_svar": "En gravplats för faraoner"
+  },
+  {
+    "årskurs": 4,
+    "ämne": "Historia",
+    "fråga": "Vad är en hieroglyf?",
+    "alternativ": ["Ett djur", "Ett gammalt egyptiskt skriftsystem", "En typ av mat", "En stad i Egypten"],
+    "rätt_svar": "Ett gammalt egyptiskt skriftsystem"
+  },
+  {
+    "årskurs": 4,
+    "ämne": "Historia",
+    "fråga": "Vem var Julius Caesar?",
+    "alternativ": ["En romersk kejsare", "En grekisk filosof", "En egyptisk farao", "En kinesisk kejsare"],
+    "rätt_svar": "En romersk kejsare"
+  },
+  {
+    "årskurs": 4,
+    "ämne": "Historia",
+    "fråga": "Vad kallas den period då Europa var mörkt och oroligt efter Romarrikets fall?",
+    "alternativ": ["Renässansen", "Upplysningstiden", "Medeltiden", "Vikingatiden"],
+    "rätt_svar": "Medeltiden"
+  },
+  {
+    "årskurs": 4,
+    "ämne": "Historia",
+    "fråga": "Vad var syftet med riddarnas rustning?",
+    "alternativ": ["Att se snygg ut", "Att skydda sig i strid", "Att hålla värmen", "Att bära mat"],
+    "rätt_svar": "Att skydda sig i strid"
+  },
+  {
+    "årskurs": 4,
+    "ämne": "Historia",
+    "fråga": "Vem upptäckte Amerika (enligt europeisk tradition)?",
+    "alternativ": ["Vasco da Gama", "Marco Polo", "Christofer Columbus", "Ferdinand Magellan"],
+    "rätt_svar": "Christofer Columbus"
+  },
+  {
+    "årskurs": 4,
+    "ämne": "Historia",
+    "fråga": "Vad var en inkvisition?",
+    "alternativ": ["En vetenskaplig uppfinning", "En religiös domstol", "Ett medeltida vapen", "En typ av slott"],
+    "rätt_svar": "En religiös domstol"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Historia",
+    "fråga": "Vad var en 'stenålder'?",
+    "alternativ": ["En tid då man bara använde stenar som vapen", "En tid då människor levde i stenhus", "En period då verktyg och vapen främst gjordes av sten", "En tid då man odlade stenar"],
+    "rätt_svar": "En period då verktyg och vapen främst gjordes av sten"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Historia",
+    "fråga": "Vad kallades de stora, gamla stenbyggnaderna i Egypten?",
+    "alternativ": ["Tempel", "Slott", "Pyramider", "Fästningar"],
+    "rätt_svar": "Pyramider"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Historia",
+    "fråga": "Vilken forntida civilisation är känd för att ha byggt Colosseum?",
+    "alternativ": ["Antikens Grekland", "Antikens Rom", "Egypten", "Mesopotamien"],
+    "rätt_svar": "Antikens Rom"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Historia",
+    "fråga": "Vad var syftet med den kinesiska muren?",
+    "alternativ": ["Att dekorera landskapet", "Att skydda mot invasioner från norr", "Att vara en väg för handel", "Att hålla djur borta"],
+    "rätt_svar": "Att skydda mot invasioner från norr"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Historia",
+    "fråga": "Vad är en 'runa'?",
+    "alternativ": ["En typ av båt", "Ett forntida skriftspråk som användes i Norden", "Ett musikinstrument", "En speciell typ av mat"],
+    "rätt_svar": "Ett forntida skriftspråk som användes i Norden"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Historia",
+    "fråga": "Vem var den första kejsaren av Kina?",
+    "alternativ": ["Konfucius", "Mao Zedong", "Qin Shi Huang", "Sun Tzu"],
+    "rätt_svar": "Qin Shi Huang"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Historia",
+    "fråga": "Vad kallas perioden då konsten och vetenskapen blomstrade i Europa efter medeltiden?",
+    "alternativ": ["Romantiken", "Barocken", "Renässansen", "Upplysningen"],
+    "rätt_svar": "Renässansen"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Historia",
+    "fråga": "Vem var en känd konstnär under renässansen som målade 'Mona Lisa'?",
+    "alternativ": ["Pablo Picasso", "Vincent van Gogh", "Leonardo da Vinci", "Claude Monet"],
+    "rätt_svar": "Leonardo da Vinci"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Historia",
+    "fråga": "Vad var syftet med de stora upptäcktsresorna på 1400- och 1500-talet?",
+    "alternativ": ["Att hitta nya djur", "Att utforska okända delar av världen och hitta nya handelsvägar", "Att bygga nya städer", "Att odla nya grödor"],
+    "rätt_svar": "Att utforska okända delar av världen och hitta nya handelsvägar"
+  },
+  {
 
 ]
