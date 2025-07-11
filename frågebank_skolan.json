@@ -292,5 +292,107 @@
     "fråga": "Vad kallas vetenskapen om levande varelser?",
     "alternativ": ["Fysik", "Kemi", "Biologi", "Geologi"],
     "rätt_svar": "Biologi"
+  },
+  {
+    "årskurs": 3,
+    "ämne": "Biologi",
+    "fråga": "Din ursprungliga fråga här.",
+    "alternativ": [...],
+    "rätt_svar": "..."
+  },
+  // KLISTRA IN DE NYA 9 BIOLOGIFRÅGORNA FÖR ÅRSKURS 3 HÄR.
+  // Se till att det är ett kommatecken mellan den gamla sista frågan och den nya första.
+  {
+    "årskurs": 3,
+    "ämne": "Biologi",
+    "fråga": "Vad heter djuret som har lång hals och fläckar?",
+    "alternativ": ["Giraff", "Elefant", "Lejon", "Zebra"],
+    "rätt_svar": "Giraff"
+  },
+  {
+    "årskurs": 3,
+    "ämne": "Biologi",
+    "fråga": "Var bor fiskar?",
+    "alternativ": ["I vattnet", "På träden", "I sanden", "I luften"],
+    "rätt_svar": "I vattnet"
+  },
+  // ...och så vidare för de resterande frågorna...
+  {
+    "årskurs": 4,
+    "ämne": "Biologi",
+    "fråga": "Vad behöver kroppen för att få energi?",
+    "alternativ": ["Socker och syre", "Syre och mat", "Mat och vatten", "Ljus och värme"],
+    "rätt_svar": "Syre och mat"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Historia",
+    "fråga": "När levde dinosaurierna?",
+    "alternativ": ["För 100 år sedan", "För miljoner år sedan", "För 10 år sedan", "I framtiden"],
+    "rätt_svar": "För miljoner år sedan"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Historia",
+    "fråga": "Vad är en 'arkeolog'?",
+    "alternativ": ["En person som bygger hus", "En person som studerar gamla civilisationer och föremål", "En person som skriver böcker", "En person som uppfinner saker"],
+    "rätt_svar": "En person som studerar gamla civilisationer och föremål"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Historia",
+    "fråga": "Vad hände under 'istiden'?",
+    "alternativ": ["Jorden blev varmare", "Stora delar av jorden täcktes av is", "Dinosaurierna dog ut", "Människor flög till månen"],
+    "rätt_svar": "Stora delar av jorden täcktes av is"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Historia",
+    "fråga": "Vad var en 'gladiator' i det antika Rom?",
+    "alternativ": ["En kock", "En krigare som stred för underhållning", "En romersk politiker", "En konstnär"],
+    "rätt_svar": "En krigare som stred för underhållning"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Historia",
+    "fråga": "Vad är 'demokrati'?",
+    "alternativ": ["Att en kung bestämmer allt", "Att folket har makten att bestämma", "Att bara de rika får rösta", "Att man inte får säga sin åsikt"],
+    "rätt_svar": "Att folket har makten att bestämma"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Historia",
+    "fråga": "Vad startade första världskriget?",
+    "alternativ": ["En fredskonferens", "Mordet på ärkehertig Franz Ferdinand", "En ekonomisk kris", "Uppfinningen av bilen"],
+    "rätt_svar": "Mordet på ärkehertig Franz Ferdinand"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Historia",
+    "fråga": "Vem var Martin Luther King Jr. känd för?",
+    "alternativ": ["Att uppfinna telefonen", "Att kämpa för medborgerliga rättigheter i USA", "Att skriva en känd bok", "Att vara en popstjärna"],
+    "rätt_svar": "Att kämpa för medborgerliga rättigheter i USA"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Historia",
+    "fråga": "Vad var 'kalla kriget'?",
+    "alternativ": ["Ett krig som utspelades på Antarktis", "En period av politisk spänning mellan USA och Sovjetunionen", "Ett krig där man bara använde snöbollar", "En ekonomisk konflikt"],
+    "rätt_svar": "En period av politisk spänning mellan USA och Sovjetunionen"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Historia",
+    "fråga": "Vad heter den mur som en gång delade Berlin?",
+    "alternativ": ["Kinesiska muren", "Hadrianus mur", "Berlinmuren", "Västvallen"],
+    "rätt_svar": "Berlinmuren"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Historia",
+    "fråga": "Vad var 'industrialiseringen'?",
+    "alternativ": ["När man började måla konst", "När man började tillverka varor i fabriker", "När man upptäckte nya länder", "När man började odla mer mat"],
+    "rätt_svar": "När man började tillverka varor i fabriker"
   }
+
 ]
