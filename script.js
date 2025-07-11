@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let frågor = [];
 
   // Läs in frågedata från GitHub (OBS: RAW-länk!)
-  fetch("https://raw.githubusercontent.com/1kuli1/skolquiz/main/frågebank_skolan.json")
+  fetch("https://raw.githubusercontent.com/1kuli1/skolquiz/main/questions.json")
     .then(response => {
       if (!response.ok) {
         throw new Error("Kunde inte ladda frågefilen.");
