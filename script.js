@@ -7,8 +7,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
   let frågor = [];
 
-  fetch("frågebank_skolan.json")
-    .then((response) => {
+  fetch("https://raw.githubusercontent.com/1kuli1/skolquiz/refs/heads/main/fr%C3%A5gebank_skolan.json")
+    .then(r => r.json())
+   .then(r => r.json())
+  .then(data => {
+    console.log('Frågor inlästa:', data);
+    visaFrågor(data);
+  })
+  .catch(err => console.error('Kunde inte läsa in JSON:', err));
       if (!response.ok) {
         throw new Error("Kunde inte ladda frågefilen.");
       }
