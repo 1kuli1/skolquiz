@@ -552,5 +552,41 @@
       "Magsäcken"
     ],
     "rätt_svar": "Magsäcken"
+
+      },
+      {
+    "årskurs": 5,
+    "ämne": "Biologi",
+    "fråga": "Vad kallas det när ett frö börjar växa till en planta?",
+    "alternativ": ["Klyvning", "Groning", "Växtning", "Avknoppning"],
+    "rätt_svar": "Groning"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Biologi",
+    "fråga": "Vilken blodkropp transporterar syre i kroppen?",
+    "alternativ": ["Vita blodkroppar", "Röda blodkroppar", "Blodplättar", "Nervceller"],
+    "rätt_svar": "Röda blodkroppar"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Biologi",
+    "fråga": "Vad gör nervsystemet?",
+    "alternativ": ["Bryter ner mat", "Skyddar mot infektioner", "Styr kroppens signaler", "Bildar blodkroppar"],
+    "rätt_svar": "Styr kroppens signaler"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Biologi",
+    "fråga": "Vilken del av växten använder solljus för att skapa energi?",
+    "alternativ": ["Rötterna", "Bladen", "Stjälken", "Fröna"],
+    "rätt_svar": "Bladen"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Biologi",
+    "fråga": "Hur andas fiskar under vatten?",
+    "alternativ": ["Med lungor", "Genom huden", "Med gälar", "De håller andan"],
+    "rätt_svar": "Med gälar"
   }
 ]
