@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Klinkekula Frågeapp</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f0f8ff;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      color: #333;
+    }
+    label, select, button {
+      display: block;
+      margin: 10px 0;
+    }
+    button {
+      padding: 10px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .alternativ-btn {
+      display: block;
+      margin: 5px 0;
+      padding: 10px;
+      background-color: #eee;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    #question-container {
+      margin-top: 20px;
+    }
+    #feedback {
+      margin-top: 15px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Klinkekula Frågeapp</h1>
+
+  <label for="klass">Årskurs:</label>
+  <select id="klass"></select>
+
+  <label for="ämne">Ämne:</label>
+  <select id="ämne"></select>
+
+  <label for="frågor">Fråga:</label>
+  <select id="frågor"></select>
+
+  <button onclick="visaFråga()">Visa fråga</button>
+
+  <div id="question-container"></div>
+  <div id="feedback"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
