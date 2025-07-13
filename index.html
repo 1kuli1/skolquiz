@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="sv">
 <head>
@@ -61,7 +60,7 @@
 
     async function hamtaFragor() {
       try {
-        const res = await fetch("https://1kuli1.github.io/skolquiz/fragor.json");
+        const res = await fetch("https://1kuli1.github.io/skolquiz/questions.json"); // <-- rätt filnamn
         data = await res.json();
         fyllArskurser();
       } catch (e) {
