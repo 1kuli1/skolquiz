@@ -432,6 +432,76 @@
     "fråga": "Vad kallas den period då Europa var mörkt och oroligt efter Romarrikets fall?",
     "alternativ": ["Renässansen", "Upplysningstiden", "Medeltiden", "Vikingatiden"],
     "rätt_svar": "Medeltiden"
-  }
+   },
+  {
+    "årskurs": 5,
+    "ämne": "Biologi",
+    "fråga": "Vilket organ pumpar blodet i kroppen?",
+    "alternativ": ["Lever", "Lunga", "Hjärta", "Hjärna"],
+    "rätt_svar": "Hjärta"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Biologi",
+    "fråga": "Vilken gas andas vi in för att leva?",
+    "alternativ": ["Koldioxid", "Väte", "Syre", "Helium"],
+    "rätt_svar": "Syre"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Biologi",
+    "fråga": "Vad gör skelettet i kroppen?",
+    "alternativ": ["Skyddar musklerna", "Producerar blod", "Håller kroppen uppe", "Skapar energi"],
+    "rätt_svar": "Håller kroppen uppe"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Biologi",
+    "fråga": "Vad är en näringskedja?",
+    "alternativ": ["En lista på mat", "En beskrivning av hur energi rör sig genom organismer", "En typ av diet", "En karta över växter"],
+    "rätt_svar": "En beskrivning av hur energi rör sig genom organismer"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Biologi",
+    "fråga": "Vad händer i lungorna?",
+    "alternativ": ["De renar blodet", "De lagrar vatten", "De tar upp syre och släpper ut koldioxid", "De producerar mat"],
+    "rätt_svar": "De tar upp syre och släpper ut koldioxid"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Biologi",
+    "fråga": "Vad kallas det när vatten byter form i naturen?",
+    "alternativ": ["Vattencykeln", "Vattnets vandring", "Kondens", "Avdunstning"],
+    "rätt_svar": "Vattencykeln"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Biologi",
+    "fråga": "Vilket sinne använder vi för att känna smak?",
+    "alternativ": ["Ögon", "Hörsel", "Tungan", "Huden"],
+    "rätt_svar": "Tungan"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Biologi",
+    "fråga": "Vad kallas det när ett djur anpassar sig till vintern genom att sova?",
+    "alternativ": ["Migration", "Vintervila", "Dvala", "Förändring"],
+    "rätt_svar": "Dvala"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Biologi",
+    "fråga": "Vilken del av ögat reglerar hur mycket ljus som släpps in?",
+    "alternativ": ["Hornhinnan", "Näthinnan", "Iris", "Linsen"],
+    "rätt_svar": "Iris"
+  }, 
+  {
+    "årskurs": 5,
+    "ämne": "Biologi",
+    "fråga": "Vad är fotosyntes?",
+    "alternativ": ["När djur andas", "När växter tar in solenergi och bildar syre", "När vatten avdunstar", "När blommor blommar"],
+    "rätt_svar": "När växter tar in solenergi och bildar syre"
 ]
+
  
