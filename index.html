@@ -17,12 +17,6 @@
     label, select, button {
       display: block;
       margin: 10px 0;
-      width: 100%;
-      max-width: 400px;
-    }
-    select {
-      padding: 10px;
-      font-size: 16px;
     }
     button {
       padding: 10px;
@@ -31,7 +25,6 @@
       border: none;
       border-radius: 5px;
       cursor: pointer;
-      font-size: 16px;
     }
     .alternativ-btn {
       display: block;
@@ -41,9 +34,6 @@
       border: 1px solid #ccc;
       border-radius: 5px;
       cursor: pointer;
-      width: 100%;
-      max-width: 400px;
-      text-align: left;
     }
     #question-container {
       margin-top: 20px;
@@ -51,7 +41,6 @@
     #feedback {
       margin-top: 15px;
       font-weight: bold;
-      font-size: 18px;
     }
   </style>
 </head>
@@ -152,19 +141,4 @@
           let btn = document.createElement("button");
           btn.textContent = alt;
           btn.className = "alternativ-btn";
-          btn.onclick = () => {
-            if (alt === fråga.rätt_svar) {
-              feedback.textContent = "Rätt svar!";
-              feedback.style.color = "green";
-            } else {
-              feedback.textContent = "Fel svar, försök igen.";
-              feedback.style.color = "red";
-            }
-          };
-          questionContainer.appendChild(btn);
-        });
-      };
-    });
-  </script>
-</body>
-</html>
+          btn.oncli
