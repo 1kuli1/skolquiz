@@ -1,0 +1,26 @@
+[
+  {
+    "årskurs": 3,
+    "ämne": "Biologi",
+    "fråga": "Vilket sinne använder vi för att känna dofter?",
+    "alternativ": [
+      "Synen",
+      "Smaken",
+      "Lukten",
+      "Hörseln"
+    ],
+    "rätt_svar": "Lukten"
+  },
+  {
+    "årskurs": 3,
+    "ämne": "Historia",
+    "fråga": "Vad hette kungen som grundade Stockholm?",
+    "alternativ": [
+      "Gustav Vasa",
+      "Birger Jarl",
+      "Karl XII",
+      "Oskar II"
+    ],
+    "rätt_svar": "Birger Jarl"
+  }
+]

@@ -1,29 +1,39 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="sv">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>SkolQuiz</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Klinkekula Frågeapp</title>
+  <style>
+    body { font-family: sans-serif; background: #e0f0ff; padding: 20px; }
+    select, button { font-size: 16px; margin: 5px; }
+    #fragaBox { margin-top: 20px; padding: 10px; background: #fff; border-radius: 8px; }
+  </style>
 </head>
 <body>
-  <div class="container">
-    <h1>SkolQuiz</h1>
-    <label for="klass">Välj årskurs:</label>
-    <select id="klass"></select>
-
-    <label for="ämne">Välj ämne:</label>
-    <select id="ämne"></select>
-
-    <label for="frågor">Välj fråga:</label>
-    <select id="frågor"></select>
-
-   <button onclick="visaFråga()">Visa frågealternativ</button>
-
-
-    <div id="question-container"></div>
-    <div id="feedback"></div>
-  </div>
+  <h1>Välj Fråga</h1>
+  <label for="arskurs">Årskurs:</label>
+  <select id="arskurs"></select>
+  <label for="amne">Ämne:</label>
+  <select id="amne"></select>
+  <label for="fraga">Fråga:</label>
+  <select id="fraga"></select>
+  <button onclick="visaFraga()">Visa fråga</button>
+  <div id="fragaBox"></div>
   <script src="script.js"></script>
+
+  <div id="felsvar" style="margin-top:20px; padding:15px; background:#fff; color:#000; border-radius:8px; display:none;">
+    <h2>Ingen kontakt med kulan ännu</h2>
+    <p>För att appen ska kunna skicka frågan till kulan behöver enheten vara ansluten till kulans WiFi-nätverk.</p>
+    <ol>
+      <li>Öppna inställningar på din dator eller surfplatta</li>
+      <li>Välj WiFi-nätverk <strong>"huvudkula"</strong></li>
+      <li>Lösenord: <strong>12345678</strong></li>
+      <li>Gå tillbaka hit och försök igen</li>
+    </ol>
+    <p>Om det inte fungerar, kontrollera att huvudkulan är påslagen och har ström.</p>
+  </div>
+
 </body>
 </html>
