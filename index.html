@@ -1,60 +1,85 @@
 <!DOCTYPE html>
 <html lang="sv">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Klinkekula Frågeapp</title>
   <style>
+    * {
+      box-sizing: border-box;
+    }
     body {
       font-family: sans-serif;
-      background-color: #f0f8ff;
-      margin: 0;
+      background: #007BFF;
       padding: 20px;
+      margin: 0;
+      color: white;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
     h1 {
-      color: #333;
+      text-align: center;
     }
     label, select, button {
-      display: block;
-      margin: 10px 0;
+      width: 100%;
+      max-width: 400px;
+      margin-top: 10px;
+      font-size: 1rem;
+    }
+    select, button {
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
     }
     button {
-      padding: 10px;
-      background-color: #007BFF;
-      color: white;
-      border: none;
-      border-radius: 5px;
+      background-color: gold;
       cursor: pointer;
-    }
-    .alternativ-btn {
-      display: block;
-      margin: 5px 0;
-      padding: 10px;
-      background-color: #eee;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      cursor: pointer;
+      font-weight: bold;
     }
     #question-container {
       margin-top: 20px;
+      width: 100%;
+      max-width: 400px;
+    }
+    #question-container button {
+      display: block;
+      width: 100%;
+      margin: 10px 0;
+      padding: 15px;
+      background: white;
+      color: black;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+      border: none;
     }
     #feedback {
-      margin-top: 15px;
+      margin-top: 20px;
       font-weight: bold;
+      text-align: center;
+      max-width: 400px;
     }
   </style>
 </head>
 <body>
-  <h1>Klinkekula Frågeapp</h1>
+  <h1>Välj Fråga</h1>
 
   <label for="klass">Årskurs:</label>
-  <select id="klass"></select>
+  <select id="klass">
+    <option disabled selected>Välj årskurs</option>
+  </select>
 
   <label for="ämne">Ämne:</label>
-  <select id="ämne"></select>
+  <select id="ämne">
+    <option disabled selected>Välj ämne</option>
+  </select>
 
   <label for="frågor">Fråga:</label>
-  <select id="frågor"></select>
+  <select id="frågor">
+    <option disabled selected>Välj fråga</option>
+  </select>
 
   <button onclick="visaFråga()">Visa fråga</button>
 
@@ -73,15 +98,18 @@
 
       fetch("https://raw.githubusercontent.com/1kuli1/skolquiz/main/questions.json")
         .then(response => {
-          if (!response.ok) throw new Error("Kunde inte ladda frågefilen.");
+          if (!response.ok) {
+            throw new Error("Kunde inte ladda frågefilen.");
+          }
           return response.json();
         })
-        .then(data => {
+        .then((data) => {
           frågor = data.map(f => ({
             ...f,
             årskurs: f.årskurs.toString().trim(),
             ämne: f.ämne.trim()
           }));
+
           let klasser = [...new Set(frågor.map(q => q.årskurs))].sort();
           klasser.forEach(k => {
             let option = document.createElement("option");
@@ -98,9 +126,10 @@
 
       klassSelect.addEventListener("change", () => {
         ämneSelect.innerHTML = "<option disabled selected>Välj ämne</option>";
-        frågaSelect.innerHTML = "";
+        frågaSelect.innerHTML = "<option disabled selected>Välj fråga</option>";
         feedback.textContent = "";
         questionContainer.innerHTML = "";
+
         let valda = frågor.filter(q => q.årskurs === klassSelect.value);
         let ämnen = [...new Set(valda.map(q => q.ämne))].sort();
         ämnen.forEach(a => {
@@ -115,6 +144,7 @@
         frågaSelect.innerHTML = "<option disabled selected>Välj fråga</option>";
         feedback.textContent = "";
         questionContainer.innerHTML = "";
+
         let valda = frågor.filter(q => q.årskurs === klassSelect.value && q.ämne === ämneSelect.value);
         valda.forEach((q, index) => {
           let option = document.createElement("option");
@@ -127,18 +157,37 @@
       window.visaFråga = () => {
         questionContainer.innerHTML = "";
         feedback.textContent = "";
+
         let valda = frågor.filter(q => q.årskurs === klassSelect.value && q.ämne === ämneSelect.value);
         let fråga = valda[frågaSelect.value];
+
         if (!fråga) {
           feedback.textContent = "Kunde inte hitta vald fråga.";
           feedback.style.color = "red";
           return;
         }
+
         let frågaEl = document.createElement("h2");
         frågaEl.textContent = fråga.fråga;
         questionContainer.appendChild(frågaEl);
+
         fråga.alternativ.forEach(alt => {
           let btn = document.createElement("button");
           btn.textContent = alt;
           btn.className = "alternativ-btn";
-          btn.oncli
+          btn.onclick = () => {
+            if (alt === fråga.rätt_svar) {
+              feedback.textContent = "Rätt svar!";
+              feedback.style.color = "lightgreen";
+            } else {
+              feedback.textContent = "Fel svar. Rätt svar var: " + fråga.rätt_svar;
+              feedback.style.color = "#ffcccc";
+            }
+          };
+          questionContainer.appendChild(btn);
+        });
+      };
+    });
+  </script>
+</body>
+</html>
