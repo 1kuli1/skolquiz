@@ -41,7 +41,7 @@
 </head>
 <body>
   <h1>Välj Fråga</h1>
-
+  
   <label for="arskurs">Årskurs:</label>
   <select id="arskurs"></select>
 
@@ -51,7 +51,7 @@
   <label for="fraga">Fråga:</label>
   <select id="fraga"></select>
 
-  <button onclick="visaFraga()">Skicka fråga</button>
+  <button id="skickaBtn">Skicka fråga</button>
 
   <div id="fragaBox"></div>
 
@@ -59,63 +59,72 @@
     let data = [];
     let aktivFraga = null;
 
-    // Funktion för att hämta frågor från questions.json
+    // Hämtar frågorna från GitHub
     async function hamtaFragor() {
       try {
-        const res = await fetch("https://1kuli1.github.io/skolquiz/questions.json"); // rätt fil
+        const res = await fetch("https://1kuli1.github.io/skolquiz/questions.json");
         data = await res.json();
-
-        // Testlogg: visa hela JSON-datan
-        console.log("Inlästa frågor:", data);
-
         fyllArskurser();
       } catch (e) {
-        console.error("Fel vid hämtning av questions.json:", e);
-        document.getElementById("fragaBox").innerHTML =
-          "<p>Kunde inte läsa in frågorna. Kontrollera din anslutning.</p>";
+        document.getElementById("fragaBox").innerHTML = "<p>Kunde inte läsa in frågorna. Kontrollera din anslutning.</p>";
       }
     }
 
-    // Fyller i årskurser i dropdown
+    // Fyller årskurslistan
     function fyllArskurser() {
       const arskurser = [...new Set(data.map(f => String(f.årskurs)))];
-      console.log("Tillgängliga årskurser:", arskurser);
-
       const select = document.getElementById("arskurs");
       select.innerHTML = "<option disabled selected>Välj</option>" +
         arskurser.map(a => `<option>${a}</option>`).join("");
-
       select.onchange = fyllAmnen;
     }
 
-    // Fyller i ämnen när man valt årskurs
+    // Fyller ämneslistan
     function fyllAmnen() {
       const arskurs = document.getElementById("arskurs").value;
-      const amnen = [...new Set(data.filter(f => String(f.årskurs) === arskurs).map(f => f.ämne))];
-      console.log("Vald årskurs:", arskurs, "→ Tillgängliga ämnen:", amnen);
-
+      const amnen = [...new Set(data.filter(f => String(f.årskurs) == arskurs).map(f => f.ämne))];
       const select = document.getElementById("amne");
       select.innerHTML = "<option disabled selected>Välj</option>" +
         amnen.map(a => `<option>${a}</option>`).join("");
-
       select.onchange = fyllFragor;
     }
 
-    // Fyller i frågor när man valt ämne
+    // Fyller frågelistan
     function fyllFragor() {
       const arskurs = document.getElementById("arskurs").value;
       const amne = document.getElementById("amne").value;
-      const fragor = data.filter(f => String(f.årskurs) === arskurs && f.ämne === amne);
-      console.log("Valt ämne:", amne, "→ Tillgängliga frågor:", fragor);
-
+      const fragor = data.filter(f => String(f.årskurs) == arskurs && f.ämne == amne);
       const select = document.getElementById("fraga");
       select.innerHTML = fragor.map((f, i) => `<option value='${i}'>${f.fråga}</option>`).join("");
     }
 
-    // Visar vald fråga och skickar till huvudkula
+    // Visar och skickar vald fråga till ESP32
     function visaFraga() {
       const i = document.getElementById("fraga").value;
       const arskurs = document.getElementById("arskurs").value;
       const amne = document.getElementById("amne").value;
-      const matchandeFragor = data.filter(f => String(f.årskurs) === arskurs && f.ämne === amne);
-      aktivFraga =
+      aktivFraga = data.filter(f => String(f.årskurs) == arskurs && f.ämne == amne)[i];
+
+      const html = `<h2>${aktivFraga.fråga}</h2>` +
+                   aktivFraga.alternativ.map((a, idx) => `<p>${String.fromCharCode(65+idx)}: ${a}</p>`).join("");
+      document.getElementById("fragaBox").innerHTML = html;
+
+      // Skicka till huvudkulan via WiFi
+      fetch("http://192.168.4.1/fraga", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(aktivFraga)
+      }).then(res => {
+        if (res.ok) console.log("Fråga skickad till huvudkulan");
+        else console.error("Fel vid sändning av fråga");
+      }).catch(err => console.error("Ingen kontakt med huvudkulan", err));
+    }
+
+    // Aktivera knapp efter att sidan laddats
+    document.getElementById("skickaBtn").addEventListener("click", visaFraga);
+
+    // Starta frågehämtning
+    hamtaFragor();
+  </script>
+</body>
+</html>
