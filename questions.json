@@ -453,6 +453,75 @@
     "fråga": "Vad gör skelettet i kroppen?",
     "alternativ": ["Skyddar musklerna", "Producerar blod", "Håller kroppen uppe", "Skapar energi"],
     "rätt_svar": "Håller kroppen uppe"
-}
+},
+  {
+ "årskurs": 5,
+    "ämne": "Biologi",
+    "fråga": "Vad är fotosyntes?",
+    "alternativ": ["När djur andas", "När växter omvandlar solenergi till socker och syre", "När människor äter", "När vatten kokar"],
+    "rätt_svar": "När växter omvandlar solenergi till socker och syre"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Biologi",
+    "fråga": "Vilket organ pumpar runt blodet i kroppen?",
+    "alternativ": ["Lever", "Hjärna", "Lunga", "Hjärta"],
+    "rätt_svar": "Hjärta"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Biologi",
+    "fråga": "Vad kallas det när ett djur går i dvala?",
+    "alternativ": ["Migration", "Vintervila", "Förökning", "Fotosyntes"],
+    "rätt_svar": "Vintervila"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Biologi",
+    "fråga": "Vilken funktion har skelettet?",
+    "alternativ": ["Producerar syre", "Styr tankar", "Håller kroppen uppe", "Skapar känslor"],
+    "rätt_svar": "Håller kroppen uppe"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Biologi",
+    "fråga": "Vilken del av kroppen tar upp syre från luften?",
+    "alternativ": ["Hjärnan", "Lungorna", "Magen", "Huden"],
+    "rätt_svar": "Lungorna"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Biologi",
+    "fråga": "Vilket sinne använder vi för att känna lukt?",
+    "alternativ": ["Hörsel", "Syn", "Lukt", "Smak"],
+    "rätt_svar": "Lukt"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Biologi",
+    "fråga": "Vad kallas växtens del som suger upp vatten ur marken?",
+    "alternativ": ["Blommor", "Stjälk", "Rötter", "Frön"],
+    "rätt_svar": "Rötter"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Biologi",
+    "fråga": "Vad produceras i människans benmärg?",
+    "alternativ": ["Syre", "Blodkroppar", "Saliv", "Magsaft"],
+    "rätt_svar": "Blodkroppar"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Biologi",
+    "fråga": "Vilken del av ögat reglerar hur mycket ljus som släpps in?",
+    "alternativ": ["Näthinna", "Lins", "Iris", "Hornhinna"],
+    "rätt_svar": "Iris"
+  },
+  {
+    "årskurs": 5,
+    "ämne": "Biologi",
+    "fråga": "Vilket organ hjälper till att bryta ner maten i magen?",
+    "alternativ": ["Tarmarna", "Mjälten", "Levern", "Magsäcken"],
+  }
 ]
  
