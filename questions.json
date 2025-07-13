@@ -522,6 +522,15 @@
     "fråga": "Vad är fotosyntes?",
     "alternativ": ["När djur andas", "När växter tar in solenergi och bildar syre", "När vatten avdunstar", "När blommor blommar"],
     "rätt_svar": "När växter tar in solenergi och bildar syre"
+  }, 
+  {
+  
+    "årskurs": 5,
+    "ämne": "Biologi",
+    "fråga": "Vad är fotosyntes?",
+    "alternativ": ["När djur andas", "När växter tar in solenergi och bildar syre", "När vatten avdunstar", "När blommor blommar"],
+    "rätt_svar": "När växter tar in solenergi och bildar syre"
   }
+]
 
  
