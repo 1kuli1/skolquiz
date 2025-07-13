@@ -453,13 +453,33 @@
     "fråga": "Vad gör skelettet i kroppen?",
     "alternativ": ["Skyddar musklerna", "Producerar blod", "Håller kroppen uppe", "Skapar energi"],
     "rätt_svar": "Håller kroppen uppe"
+[
+  {
+    "årskurs": 5,
+    "ämne": "Biologi",
+    "fråga": "Vad är fotosyntes?",
+    "alternativ": [
+      "När djur andas",
+      "När växter tar in solenergi och bildar syre",
+      "När vatten avdunstar",
+      "När blommor blommar"
+    ],
+    "rätt_svar": "När växter tar in solenergi och bildar syre"
   },
   {
     "årskurs": 5,
     "ämne": "Biologi",
-    "fråga": "Vad är en näringskedja?",
-    "alternativ": ["En lista på mat", "En beskrivning av hur energi rör sig genom organismer", "En typ av diet", "En karta över växter"],
-    "rätt_svar": "En beskrivning av hur energi rör sig genom organismer"
+    "fråga": "Vad kallas processen där vatten blir till ånga?",
+    "alternativ": [
+      "Kondensering",
+      "Avdunstning",
+      "Smältning",
+      "Förmultning"
+    ],
+    "rätt_svar": "Avdunstning"
+  }
+]
+
   },
   {
     "årskurs": 5,
