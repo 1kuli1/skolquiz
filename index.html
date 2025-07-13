@@ -70,7 +70,7 @@
     }
 
     function fyllArskurser() {
-      const arskurser = [...new Set(data.map(f => f.årskurs))];
+     const arskurser = [...new Set(data.map(f => String(f.årskurs)))];
       const select = document.getElementById("arskurs");
       select.innerHTML = "<option disabled selected>Välj</option>" +
         arskurser.map(a => `<option>${a}</option>`).join("");
